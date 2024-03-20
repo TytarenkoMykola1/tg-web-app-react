@@ -70,8 +70,9 @@ const ProductList = () => {
 
     return (
         <div className={'list'}>
-            {products.map(item => (
+            {products.map((item,index) => (
                 <ProductItem
+                    key={index}
                     product={item}
                     onAdd={onAdd}
                     className={'item'}
