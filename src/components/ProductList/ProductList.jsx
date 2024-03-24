@@ -5,14 +5,14 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', title: 'AMD Ryzen 5 3600', price: 3000, description: '4.2GHZ'},
+    {id: '2', title: 'GTX 1660 SUPER', price: 12000, description: '6GB'},
+    {id: '3', title: 'HyperX 16GB RAM', price: 2000, description: '3600 Mhz'},
+    {id: '4', title: 'Kingston NVME 1TB', price: 2200, description: '2000 read, 2500 write'},
+    {id: '5', title: 'Intel core i5 12400F', price: 5500, description: '2.5GHZ'},
+    {id: '6', title: 'RTX 4060', price: 15000, description: '8GB'},
+    {id: '7', title: 'Ryzen 7 5700x3D', price: 9000, description: '3.9GHZ'},
+    {id: '8', title: 'GAMMAXX 400K', price: 1100, description: '500-1500 rpm'},
 ]
 
 const getTotalPrice = (items = []) => {
