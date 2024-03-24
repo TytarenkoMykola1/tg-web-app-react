@@ -9,10 +9,11 @@
 
 .img {
     width: 100%;
-    background: lightgray;
     height: 100px;
     margin: 0 auto;
-    background: var(--tg-theme-button-color);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .description {
